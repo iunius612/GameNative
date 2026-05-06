@@ -113,6 +113,7 @@ android {
             isMinifyEnabled = false
             isShrinkResources = false
             signingConfig = signingConfigs.getByName("debug")
+            versionNameSuffix = "-fork-debug"
         }
         release {
             isMinifyEnabled = true
